@@ -1,5 +1,5 @@
 import greenfoot.*; 
-import java.awt.Color;
+
 
 /**
  * A 'Body' is any kind of object in space that has a mass. It could be 
