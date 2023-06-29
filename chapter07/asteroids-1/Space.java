@@ -1,5 +1,5 @@
 import greenfoot.*;
-import java.awt.Color;
+
 
 /**
  * Space. Something for rockets to fly in.

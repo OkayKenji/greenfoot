@@ -1,5 +1,5 @@
 import greenfoot.*;
-import java.awt.Color;
+
 
 /**
  * Pheromones are dropped by ants when they want to communicate something to
