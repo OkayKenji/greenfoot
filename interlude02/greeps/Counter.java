@@ -1,13 +1,10 @@
 import greenfoot.*;
 
-
-
-
 /**
  * Counter that displays an (optional) text and a number.
  * 
- * @author Michael Kolling
- * @version 1.0.1
+ * @author Michael Kölling
+ * @version 1.1
  */
 public class Counter extends Actor
 {

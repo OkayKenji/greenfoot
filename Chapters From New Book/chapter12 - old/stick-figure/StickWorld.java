@@ -1,5 +1,4 @@
 import greenfoot.*; 
-import java.awt.Color;
 
 /**
  * A very simple Kinect world showing the stick figure feature.

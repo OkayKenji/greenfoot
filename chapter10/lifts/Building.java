@@ -1,11 +1,10 @@
-import greenfoot.Actor;
-import greenfoot.World;
-import greenfoot.GreenfootImage;
-
-import java.awt.Color;
-import java.awt.Graphics;
+import greenfoot.*;
 import java.util.Random;
 
+/**
+ * The building. Buildings have floors and lifts.
+ * @version 1.1
+ */
 public class Building extends World
 {
     public static final int RESOLUTION = 1;

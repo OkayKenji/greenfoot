@@ -1,5 +1,4 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
 import java.util.List;
 
 /**
@@ -7,7 +6,8 @@ import java.util.List;
  * or anything else that floats around in space.
  * 
  * @author Michael Kšlling 
- * @version 1.2
+ *   (Including improvements by J. Buhl.)
+ * @version 1.3
  */
 public class Body extends SmoothMover
 {

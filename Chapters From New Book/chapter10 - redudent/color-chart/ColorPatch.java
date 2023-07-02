@@ -1,12 +1,10 @@
 import greenfoot.*; 
-import java.awt.Color;
-import java.awt.Font;
 
 /**
  * A representation of a given RGB color value.
  * 
  * @author Michael Kölling
- * @version 1.1
+ * @version 1.2
  */
 public class ColorPatch extends Actor
 {
@@ -25,7 +23,7 @@ public class ColorPatch extends Actor
         else {
             img.setColor (Color.BLACK);
         }
-        img.setFont (img.getFont().deriveFont(Font.BOLD, 10.0f));
+        img.setFont (img.getFont().deriveFont(10.0f));
         img.drawString (r + "," + g + "," + b, 10, 14);
 
         setImage (img);

@@ -1,11 +1,10 @@
 import greenfoot.*; 
-import java.awt.Color;
 
 /**
  * A world for the boids.
  * 
  * @author Poul Henriksen 
- * @version 2.0
+ * @version 2.1
  */
 public class Sky extends World
 {
@@ -24,7 +23,8 @@ public class Sky extends World
         populateBoids(50);
     }
     
-    public void populateBoids(int number) {
+    public void populateBoids(int number) 
+    {
         for(int i=0; i < number; i++) {            
              int x = (int) (Math.random() * getWidth());          
              int y = (int) (Math.random() * getHeight());
@@ -33,7 +33,8 @@ public class Sky extends World
         }
     }
     
-    public void populateTrees(int number) {
+    public void populateTrees(int number) 
+    {
         // Size of block in pixels
         int blockSize = 70; 
         // Trees per block
@@ -51,6 +52,4 @@ public class Sky extends World
              }    
         }        
     }
-    
-    
 }

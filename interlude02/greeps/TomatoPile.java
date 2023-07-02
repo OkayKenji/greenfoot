@@ -1,14 +1,11 @@
 import greenfoot.*;
-
-
-import java.awt.image.BufferedImage;
 import java.util.Random;
 
 /**
  * A pile of tomatoes.
  * 
  * @author Michael Kölling
- * @version 1.0.2
+ * @version 1.1
  */
 public class TomatoPile extends Actor
 {
@@ -84,11 +81,14 @@ public class TomatoPile extends Actor
     private int randomCoord()
     {
         int val = HALFSIZE + (int) (randomizer.nextGaussian() * (HALFSIZE / 2));
-        if (val < 0)
+        if (val < 0) {
             return 0;
-        if (val > SIZE - 2)
+        }
+        if (val > SIZE - 2) {
             return SIZE - 2;
-        else
+        }
+        else {
             return val;
+        }
     }
 }

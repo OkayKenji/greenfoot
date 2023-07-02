@@ -2,6 +2,7 @@ import greenfoot.*;
 
 /**
  * The data for a user (i.e. person in front of the sensor).
+ * @version 1.1
  */
 public class UserData
 {
@@ -243,8 +244,7 @@ public class UserData
      */
     public void drawStickFigure(GreenfootImage img, int headRadius)
     {
-
-        img.setColor(java.awt.Color.BLACK);
+        img.setColor(Color.BLACK);
         connect(img, Joint.HEAD, Joint.NECK);
         img.drawOval((int)joints[Joint.HEAD].getScreenPosition().getX() - (headRadius/2),
                      (int)joints[Joint.HEAD].getScreenPosition().getY() - (headRadius/2),

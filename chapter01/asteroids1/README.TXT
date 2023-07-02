@@ -1,6 +1,7 @@
         Asteroids1
         ==========
-        
+(Updated to API version 3.0)        
+
 This scenario is part of the book 
 
     "Introduction to Programming with Greenfoot"

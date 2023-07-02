@@ -1,5 +1,4 @@
 import greenfoot.*;
-
 import java.util.List;
 
 /**
@@ -7,6 +6,7 @@ import java.util.List;
  * a star, or a planet, or anything else that floats around in space.
  * 
  * @author Michael Kölling 
+ *   (Including improvements by J. Buhl.)
  * @version 1.0
  */
 public class Body extends SmoothMover

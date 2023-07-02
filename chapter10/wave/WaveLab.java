@@ -1,11 +1,10 @@
 import greenfoot.*; 
-import java.awt.Color;
 
 /**
  * The world in which our wave lab is assembled.
  * 
  * @author Michael Kölling
- * @version 1.0
+ * @version 1.1
  */
 public class WaveLab extends World
 {

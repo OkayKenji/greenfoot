@@ -1,13 +1,11 @@
 import greenfoot.*;
 
-
-
 /**
  * Paint drops that can be left on the ground. Unfortunately, the ground is soft, and 
  * paint sinks in with time. After some time, it will have disappeared.
  * 
  * @author Michael Kölling
- * @version 1.0.2
+ * @version 1.1
  */
 public class Paint extends Actor
 {

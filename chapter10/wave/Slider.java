@@ -10,7 +10,7 @@ import greenfoot.*;
  * This class depends on the SliderHand and Text classes.
  * 
  * @author M. Kölling
- * @version 1.0
+ * @version 1.1
  */
 public class Slider extends Actor
 {
@@ -56,7 +56,7 @@ public class Slider extends Actor
         hand = new SliderHand(this);
         getWorld().addObject (hand, getX(), getY()-4);
 
-        value = new Text(3);
+        value = new Text(" ");
         getWorld().addObject (value, getX(), getY()-30);
 
         getWorld().addObject (label, getX(), getY()+30);

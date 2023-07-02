@@ -1,11 +1,10 @@
 import greenfoot.*;
-import java.awt.Color;
 
 /**
  * An object showing some text.
  * 
  * @author Michael Kölling
- * @version 1.0
+ * @version 1.1
  */
 public class Text extends Actor
 {

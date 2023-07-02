@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Ant
-comment0.text=\r\n\ An\ ant\ that\ collects\ food.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 0.1\r\n
+comment0.text=\n\ An\ ant\ that\ collects\ food.\n\ \n\ @author\ Michael\ K\u00F6lling\n\ @version\ 0.1\n
 comment1.params=home
 comment1.target=Ant(AntHill)
-comment1.text=\r\n\ Create\ an\ ant\ with\ a\ given\ home\ hill.\ The\ initial\ speed\ is\ zero\ (not\ moving).\r\n
+comment1.text=\n\ Create\ an\ ant\ with\ a\ given\ home\ hill.\ The\ initial\ speed\ is\ zero\ (not\ moving).\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ Do\ what\ an\ ant's\ gotta\ do.\r\n
+comment2.text=\n\ Do\ what\ an\ ant's\ gotta\ do.\n
 numComments=3

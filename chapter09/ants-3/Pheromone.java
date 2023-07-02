@@ -1,12 +1,11 @@
 import greenfoot.*;
 
-
 /**
  * Pheromones are dropped by ants when they want to communicate something to
  * other ants.
  * 
  * @author Michael Kölling
- * @version 1.1
+ * @version 1.2
  */
 public class Pheromone extends Actor
 {

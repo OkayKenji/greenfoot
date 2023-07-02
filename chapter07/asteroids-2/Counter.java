@@ -1,6 +1,5 @@
 import greenfoot.*;
 
-
 /**
  * A Counter class that allows you to display a numerical value on screen.
  * 
@@ -9,7 +8,7 @@ import greenfoot.*;
  * can adjust its value.
  * 
  * @author Neil Brown and Michael Kölling 
- * @version 1.0
+ * @version 1.1
  */
 public class Counter extends Actor
 {

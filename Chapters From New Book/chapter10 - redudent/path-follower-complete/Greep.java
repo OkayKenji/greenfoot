@@ -1,5 +1,4 @@
 import greenfoot.*; 
-import java.awt.Color;
 
 /**
  * This Greep is a small creatures that likes to walk on a path.
@@ -7,7 +6,7 @@ import java.awt.Color;
  * It recognises the path by colour: everything that looks reddish/brownish is a path.
  * 
  * @author Michael Kölling
- * @version 1.0
+ * @version 1.1
  */
 public class Greep extends Actor
 {

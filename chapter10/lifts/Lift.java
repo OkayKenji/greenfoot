@@ -1,12 +1,12 @@
-import greenfoot.Actor;
-import greenfoot.GreenfootImage;
+import greenfoot.*;
 
-import java.awt.Color;
-import java.awt.Graphics;
 import java.util.Random;
-
 import javax.swing.ImageIcon;
 
+/**
+ * A Lift.
+ * @version 1.1
+ */
 public class Lift extends Actor
 {
     private static final Random randomizer = Building.getRandomizer();

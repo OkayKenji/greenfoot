@@ -1,21 +1,23 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
+import greenfoot.*;
 
 /**
  * An actor superclass that maintains precision location (doubles instead of ints).
  * 
- * @author M Kolling
- * @version 1.0
+ * @author M Kölling
+ * @version 1.1
  */
 public abstract class PreciseActor extends Actor
 {
     private double x;
     private double y;
     
-    public double getExactX() {
+    public double getExactX() 
+    {
         return x;
     }
      
-    public double getExactY() {
+    public double getExactY() 
+    {
         return y;
     }
     

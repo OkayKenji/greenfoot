@@ -77,6 +77,7 @@ public abstract class Creature extends Actor
          return ship != null;
     }
 
+    
     /**
      * Move forward roughly in the current direction. Sometimes we get a 
      * little off course.
@@ -175,7 +176,8 @@ public abstract class Creature extends Actor
     {
         return carryingTomato;
     }
-        
+    
+    
     /**
      * Remove the tomato currently carried (and return true). Return
      * false if we were not carrying one.

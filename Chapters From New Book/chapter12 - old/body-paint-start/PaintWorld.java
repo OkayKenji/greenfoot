@@ -1,5 +1,4 @@
 import greenfoot.*; 
-import java.awt.Color;
 import java.util.HashMap;
 import java.util.Collection;
 
@@ -7,7 +6,7 @@ import java.util.Collection;
  * A Kinect world that lets you paint with your hands.
  * 
  * @author Neil Brown, Michael Kölling
- * @version 1.4
+ * @version 1.5
  */
 public class PaintWorld extends KinectWorld
 {

@@ -1,13 +1,11 @@
 import greenfoot.*;
 
-
-
 /**
  * This is Earth. Or at least some remote, uninhabited part of Earth. Here, Greeps can
  * land and look for piles of tomatoes...
  * 
  * @author Michael Kölling
- * @version 1.0.1
+ * @version 1.1
  */
 public class Earth extends World
 {

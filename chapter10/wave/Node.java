@@ -1,12 +1,11 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, and Greenfoot)
-import java.awt.Color;
+import greenfoot.*;
 
 /**
  * A node in a string. A node is fixed in its X co-ordinate, but can move in its y co-ordinate.
  * It will be pulled up or down by two neighbouring nodes.
  * 
  * @author mik
- * @version 1.0
+ * @version 1.1
  */
 public class Node extends PreciseActor
 {

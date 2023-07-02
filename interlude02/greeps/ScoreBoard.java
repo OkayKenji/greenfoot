@@ -1,6 +1,4 @@
 import greenfoot.*;
-
-
 import java.util.Calendar;
 
 /**
@@ -8,7 +6,7 @@ import java.util.Calendar;
  * text and several numbers.
  * 
  * @author M Kölling
- * @version 1.0.1
+ * @version 1.1
  */
 public class ScoreBoard extends Actor
 {

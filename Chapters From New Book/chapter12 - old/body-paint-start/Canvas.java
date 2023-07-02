@@ -1,5 +1,4 @@
 import greenfoot.*;
-import java.awt.Color;
 
 /**
  * A canvas for a Kinect user to paint on. One canvas is created per user.
@@ -8,7 +7,7 @@ import java.awt.Color;
  * every user has their own transparent layer to paint on.
  * 
  * @author Michael Kölling
- * @version 0.5
+ * @version 0.6
  */
 public class Canvas extends Actor
 {

@@ -8,7 +8,7 @@ import java.util.List;
  * detail and score display.
  * 
  * @author: Michael Kölling
- * @version 1.0
+ * @version 1.1
  */
 public class Board extends World
 {
@@ -181,7 +181,7 @@ public class Board extends World
      */
     private Marble getGoldMarble()
     {
-        List<Actor> marbles = getObjects (GoldMarble.class);
+        List<GoldMarble> marbles = getObjects(GoldMarble.class);
         if (marbles.size() == 0) {
             return null;
         }

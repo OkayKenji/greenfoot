@@ -1,9 +1,10 @@
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import greenfoot.*;
 import java.awt.font.FontRenderContext;
 import java.awt.Graphics2D;
 
 /**
- * Write a description of class Switch here.
+ * A switch with a graphical display that can be switched on and off.
+ * @version 1.1
  */
 public class Switch extends Actor
 {
@@ -44,14 +45,10 @@ public class Switch extends Actor
     
     public void write(GreenfootImage image, String text1, String text2)
     {
-        // calculate width of text in pixels
-        FontRenderContext frc = ((Graphics2D)getImage().getAwtImage().getGraphics()).getFontRenderContext();
-
-        int textWidth = (int)image.getFont().getStringBounds(text1, frc).getWidth();
-        image.drawString(text1, (image.getWidth() - textWidth) / 2, 12);
+        GreenfootImage tmp1 = new GreenfootImage(text1, 12, null, null);
+        GreenfootImage tmp2 = new GreenfootImage(text2, 12, null, null);
         
-        textWidth = (int)image.getFont().getStringBounds(text2, frc).getWidth();        
-        image.drawString(text2, (image.getWidth() - textWidth) / 2, 86);
+        image.drawString(text1, (image.getWidth() - tmp1.getWidth()) / 2, 12);
+        image.drawString(text2, (image.getWidth() - tmp2.getWidth()) / 2, 86);
     }
-
 }

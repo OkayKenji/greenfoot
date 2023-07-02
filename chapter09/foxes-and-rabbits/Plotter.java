@@ -1,6 +1,7 @@
 import greenfoot.*;
 
 import java.awt.*;
+import java.awt.Color;
 import java.awt.image.*;
 import javax.swing.*;
 import java.util.List;
@@ -10,7 +11,7 @@ import java.util.List;
  * classes. You would usually only create one single actor of this class.
  * 
  * @author M Kölling
- * @version 1.0
+ * @version 1.1
  */
 public class Plotter extends Actor
 {

@@ -16,7 +16,7 @@ public class MyWorld extends World
     {    
         super(500, 400, 1);
         placeRocks();
-        getBackground().setColor(java.awt.Color.BLACK);
+        getBackground().setColor(Color.BLACK);
         getBackground().drawString("Press <spacebar> to explode rocks", 10, 20);
     }
     

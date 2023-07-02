@@ -11,7 +11,7 @@ public class Bloodstream extends World
 {
 
     /**
-     * Constructor: Set up the staring objects.
+     * Constructor: Set up the starting objects.
      */
     public Bloodstream()
     {    
@@ -65,15 +65,12 @@ public class Bloodstream extends World
         Lining lining5 = new Lining();
         addObject(lining5, 114, 359);
         Lining lining6 = new Lining();
+        addObject(lining6, 295, 353);
         Lining lining7 = new Lining();
-        addObject(lining7, 295, 353);
+        addObject(lining7, 480, 358);
         Lining lining8 = new Lining();
+        addObject(lining8, 596, 359);
         Lining lining9 = new Lining();
-        Lining lining10 = new Lining();
-        addObject(lining10, 480, 358);
-        Lining lining11 = new Lining();
-        addObject(lining11, 596, 359);
-        Lining lining12 = new Lining();
-        addObject(lining12, 740, 354);
+        addObject(lining9, 740, 354);
     }
 }

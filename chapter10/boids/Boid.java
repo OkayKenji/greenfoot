@@ -7,7 +7,7 @@ import java.util.*;
  * placed in the world.
  * 
  * @author Poul Henriksen 
- * @version 2.0
+ * @version 2.1
  */
 public class Boid extends SmoothActor
 {
@@ -57,7 +57,8 @@ public class Boid extends SmoothActor
     /**
      * Calculate accelaration by appling the boid rules
      */
-    private void acc() {
+    private void acc() 
+    {
         Vector acc = new Vector(0,0);
         acc.add(getFlockAttraction(ATTRACT_DIST).divide(7.5));     
         acc.add(getFlockRepulsion(REPULSE_DIST).multiply(1));
@@ -69,7 +70,8 @@ public class Boid extends SmoothActor
     /**
      * Get the size of the wall force on this boid. Will make the boid avoid the world boundaries.
      */    
-    public Vector getWallForce() {
+    public Vector getWallForce() 
+    {
         Vector location = getLocation();
         //Special border repulse rules:
         Vector wallForce = new Vector(0,0);
@@ -95,7 +97,8 @@ public class Boid extends SmoothActor
     /**
      * Get the other objects that are within the given distance.
      */
-    private List getNeighbours(int distance, Class cls) {
+    private List getNeighbours(int distance, Class cls) 
+    {
         return getObjectsInRange(distance, cls);
     }
     
@@ -103,7 +106,8 @@ public class Boid extends SmoothActor
      * Get the center of all the boids within the given distance. 
      * That is, the average of all the positions of the other boids.
      */
-    public Vector getCentreOfMass(int distance) {
+    public Vector getCentreOfMass(int distance) 
+    {
         List neighbours = getNeighbours(distance, Boid.class);
         //add me
         neighbours.add(this);
@@ -118,7 +122,8 @@ public class Boid extends SmoothActor
     /**
      * Get the attraction from the other boids within the given distance.
      */
-    public Vector getFlockAttraction(int distance) {
+    public Vector getFlockAttraction(int distance) 
+    {
         Vector com = getCentreOfMass(distance);
         //distance to the centre of mass
         Vector distCom = getCentreOfMass(distance).subtract(getLocation());
@@ -128,7 +133,8 @@ public class Boid extends SmoothActor
     /**
      * Get the repulsion from the other boids within the given distance.
      */
-    public Vector getFlockRepulsion(int distance) {
+    public Vector getFlockRepulsion(int distance) 
+    {
         Vector repulse = new Vector();
         List neighbours = getNeighbours(distance, SmoothActor.class);
         for(Object o : neighbours) {            
@@ -147,7 +153,8 @@ public class Boid extends SmoothActor
     /**
      * Get the average velocity of all boids within the given distance.
      */
-    private Vector getAverageVelocity(int distance) {
+    private Vector getAverageVelocity(int distance) 
+    {
         List neighbours = getNeighbours(distance, Boid.class);
         //add me
         neighbours.add(this);
@@ -162,7 +169,8 @@ public class Boid extends SmoothActor
     /**
      * Get the relative direction this boid should be facing to match the average direction of the flock.
      */
-    private Vector getFlockAlignment(int distance) {
+    private Vector getFlockAlignment(int distance) 
+    {
         Vector avgVel = getAverageVelocity(distance);
         avgVel.subtract(getVelocity());
         return avgVel;

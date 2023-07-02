@@ -1,10 +1,12 @@
 #BlueJ class context
-comment0.params=slider
-comment0.target=SliderHand(Slider)
-comment1.params=
-comment1.target=void\ act()
-comment2.params=enable
-comment2.target=void\ setEnabled(boolean)
-comment3.params=
-comment3.target=boolean\ isEnabled()
-numComments=4
+comment0.target=SliderHand
+comment0.text=\n\ The\ hand\ indicating\ the\ current\ value\ of\ a\ slider.\n\ \n\ @author\ M.\ K\u00F6lling\n\ @version\ 1.0\n
+comment1.params=slider
+comment1.target=SliderHand(Slider)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=enable
+comment3.target=void\ setEnabled(boolean)
+comment4.params=
+comment4.target=boolean\ isEnabled()
+numComments=5

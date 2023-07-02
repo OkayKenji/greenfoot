@@ -1,13 +1,11 @@
 import greenfoot.*;
-
-
 import java.util.Random;
 
 /**
  * A pile of food. The pile consists initially of 100 crumbs of food.
  * 
  * @author Michael Kölling
- * @version 1.1
+ * @version 1.2
  */
 public class Food extends Actor
 {

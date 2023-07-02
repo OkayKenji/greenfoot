@@ -1,6 +1,5 @@
 import greenfoot.*; 
 
-
 /**
  * A 'Body' is any kind of object in space that has a mass. It could be 
  * a star, or a planet, or anything else that floats around in space.
