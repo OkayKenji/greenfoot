@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-import java.awt.Color;
+
 
 /**
  * This is Earth. Or at least some remote, uninhabited part of Earth. Here, Greeps can

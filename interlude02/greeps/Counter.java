@@ -1,7 +1,7 @@
 import greenfoot.*;
 
-import java.awt.Color;
-import java.awt.Font;
+
+
 
 /**
  * Counter that displays an (optional) text and a number.

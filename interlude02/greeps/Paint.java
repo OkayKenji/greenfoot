@@ -1,6 +1,6 @@
 import greenfoot.*;
 
-import java.awt.Color;
+
 
 /**
  * Paint drops that can be left on the ground. Unfortunately, the ground is soft, and 
