@@ -12,7 +12,7 @@ Our instructional curriculum will be based on the Greenfoot Textbook, "[Introduc
 2. Follow the instructions provided by Greenfoot for the downloading process.
 
 # Procedure for Downloading this Code
-1. Locate the green "**Code**" button, positioned at the top right of the menu. Or you can [follow this link](https://github.com/OkayKenji/greenfoot/archive/refs/heads/main.zip).
+1. Locate the green "**Code**" button, positioned at the top right of the menu. Or you can [follow this link](https://github.com/OkayKenji/greenfoot/archive/refs/heads/main.zip). <update link>
 2. Kindly ensure that you unzip the downloaded file in order to proceed with the subsequent steps. For detailed instructions on how to unzip a file, please refer to the support pages specific to your operating system ([Mac](https://support.apple.com/guide/mac-help/) or [Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)).
 
 
@@ -20,7 +20,7 @@ Our instructional curriculum will be based on the Greenfoot Textbook, "[Introduc
 # Included Chapters:
 | Chapter     | Folder | Exercises |
 | ----------- | ----------- |-----------
-| Chapter 1: Getting to Know Greenfoot |  [chapter01](chapter01) | *``asteroids1``*, *``leaves-and-wombats``*
+| Chapter 1: Getting to Know Greenfoot |  [chapter01](chapter01) | *``asteroids1``* *``leaves-and-wombats``*
 | Chapter 2: The First Program: Little Crab   | [chapter02-04](chapter02-04) | *``little-crab``*
 | Chapter 3: Improving the Crab - more sophisticated programming | [chapter02-04](chapter02-04) | *``little-crab-2``* *``little-crab-3``* *``little-crab-4``*
 | Chapter 4: Finishing the Crab game | [chapter02-04](chapter02-04) | *``little-crab-4``* *``little-crab-5``*
