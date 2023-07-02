@@ -28,7 +28,7 @@ Our instructional curriculum will be based on the Greenfoot Textbook, "[Introduc
 | Chapter 6: Interacting objects: Newton’s Lab | [chapter06](chapter06) | *``Newtons-Lab-1``* *``Newtons-Lab-2``* *``Newtons-Lab-3``*
 | Chapter 7: Collision Detection: Asteroids | [chapter07](chapter07) | *``asteroids-1``* *``asteroids-2``* *``asteroids-3``*
 | Interlude 2: The Greeps Competition | [interlude02](interlude02) | *``greeps``*
-| Chapter 8: Creating Images and Sound | [chapter08](chapter08) | *N/A*
+| Chapter 8: Creating Images and Sound | *N/A* | *N/A*
 | Chapter 9: Simulations | [chapter09](chapter09) | *``ants``*  *``ants-2``*  *``ants-3``*  *``foxes-and-rabbits``*
 | Chapter 10: Additional Scenario Ideas | [chapter10](chapter10) | *Various* 
 
