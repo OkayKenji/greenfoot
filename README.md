@@ -1,17 +1,20 @@
 # Iona STEP Program Greenfoot Code
 ## Summer 2023
 
-Code for [Iona's STEP Program](https://www.iona.edu/admissions-financial-aid/high-school-students/science-and-technology-entry-program), *for educational purposes*. 
+Code for [Iona's STEP Program](https://www.iona.edu/admissions-financial-aid/high-school-students/science-and-technology-entry-program), *exclusively for educational purposes*. 
 
 The Iona University Science and Technology Entry Program (STEP) serves students in grades 7-12 for careers in math, science, technology, health-related fields, and licensed professions.
 
-Our lessons will be based on Version 1.0 of the Greenfoot Textbook, [Introduction to Programming with Greenfoot](https://www.greenfoot.org/book/) authored by Michael Kölling. The folders exercises reside in reflect Version 1.0 of the textbook. However, the exercises have been updated to newer versions of the textbook. 
+Our instructional curriculum will be based on the Greenfoot Textbook, "[Introduction to Programming with Greenfoot](https://www.greenfoot.org/book/)" authored by Michael Kölling. The corresponding exercise files are aligned with the contents of Version 1.0 of the textbook. However, please note that the exercises themselves have been updated to newer editions of the textbook.
 
-# How to Download Greenfoot
-Go to [Greenfoot's Website](https://www.greenfoot.org/download) and follow the instuctions provided by Greenfoot. 
+# Procedure for Downloading Greenfoot:
+1. Access the official [Greenfoot Website](https://www.greenfoot.org/download).
+2. Follow the instructions provided by Greenfoot for the downloading process.
 
-# How to Download Code
-Click the green **Code** button on the top right of the menu. Remember to unzip the file first. To know how to unzip a file see [Mac](https://support.apple.com/guide/mac-help/zip-and-unzip-files-and-folders-on-mac-mchlp2528/mac) and [Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc) support pages.
+# Procedure for Downloading this Code
+1. Locate the green "**Code**" button, positioned at the top right of the menu. Or you can [follow this link](https://github.com/OkayKenji/greenfoot/archive/refs/heads/main.zip).
+2. Kindly ensure that you unzip the downloaded file in order to proceed with the subsequent steps. For detailed instructions on how to unzip a file, please refer to the support pages specific to your operating system ([Mac](https://support.apple.com/guide/mac-help/) or [Windows](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-f6dde0a7-0fec-8294-e1d3-703ed85e7ebc)).
+
 
 ![howtodownload](howtodownload.PNG)
 # Included Chapters:
@@ -29,6 +32,9 @@ Click the green **Code** button on the top right of the menu. Remember to unzip 
 | Chapter 9: Simulations | [chapter09](chapter09) | *``ants``*  *``ants-2``*  *``ants-3``*  *``foxes-and-rabbits``*
 | Chapter 10: Additional Scenario Ideas | [chapter10](chapter10) | *Various* 
 
-[Chapters From New Book]( ) contains chapters and topics not covered in version-1.0 of the textbook.
 
-Did you know? You can [make your own repository](https://docs.github.com/en/get-started/quickstart/hello-world). But for now we will download the files onto a USB stick.  
+The [Chapters From New Book]( ) encompass chapters and topics that were not included in the previous version (version 1.0) of the textbook.
+
+Did you know? You can [make your own repository](https://docs.github.com/en/get-started/quickstart/hello-world). However, for the present, we will proceed with downloading the files onto a USB stick.
+
+Text revised by [ChatGPT](https://chat.openai.com/auth/login).
